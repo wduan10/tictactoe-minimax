@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>TicTacToe</title>
+
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+	<script src="cell.js"></script>
+	<script src="minimax.js"></script>
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+		}
+		canvas {
+	    padding: 0;
+	    margin: auto;
+	    display: block;
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+		}
+		h1 {
+			text-align: center;
+			display: none;
+			font-size: 70px;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="p1">Player 1 Wins!</h1>
+	<h1 id="p2">Player 2 Wins!</h1>
+	<h1 id="tie">It's a tie!</h1>
+</body>
+</html>
